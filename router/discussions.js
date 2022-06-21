@@ -1,4 +1,4 @@
-// TODO: discussions 라우터를 완성합니다.\//깃다시
+// TODO: discussions 라우터를 완성합니다.\
 const { discussionsController } = require('../controller');
 const { findAll, findById, createOne, updateById, deleteById } = discussionsController;
 const express = require('express');
