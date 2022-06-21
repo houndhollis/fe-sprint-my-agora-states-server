@@ -16,6 +16,7 @@ const discussionsRouter = require('./router/discussions');
 
  
 // TODO: /discussions 경로로 라우팅합니다. 
+//영웅
 app.use('/discussions',discussionsRouter)
 
 app.get('/', (req, res) => {
